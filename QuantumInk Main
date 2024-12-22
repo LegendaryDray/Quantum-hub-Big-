@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "BigmaHub V0.5", HidePremium = false, IntroText = "BigmaHub V0.5" , Watermark = "BigmaHub 0.5a" , SaveConfig = false, ConfigFolder = "BigmaHubConfig"})
+local Window = OrionLib:MakeWindow({Name = "Quantum Hub V1", HidePremium = false, IntroText = "Quantum Hub V1" , Watermark = "Quantum Hub 0.1a" , SaveConfig = false, ConfigFolder = "QuantumHubConfig"})
 
 --Main
 local MainTab = Window:MakeTab({
@@ -13,16 +13,16 @@ local MainSection = MainTab:AddSection({
 })
 
 MainTab:AddButton({
-	Name = "Created By BigmaPlays#8401",
+	Name = "Created By QuantumInk",
 	Callback = function()
-      		print("BigmaPlays#8401")
+      		print("QuantumInk")
   	end    
 })
 
 MainTab:AddButton({
-	Name = "Join My Discord! (Click,then press F9)",
+	Name = "Join Our Discord! (Click,then press F9)",
 	Callback = function()
-      		print("https://discord.gg/TV2zbBn47M")
+      		print("https://discord.gg/rraHSgE5D9")
   	end    
 })
 
@@ -7844,3 +7844,4 @@ ChangeTab:AddParagraph("","[+] Added Change Log's")
 ChangeTab:AddParagraph("","[+] Fixed Script's And Hubs")
 ChangeTab:AddParagraph("","[+] Added More Script's And Hubs")
 ChangeTab:AddParagraph("","[+] Fixed Some Bugs")
+ChangeTab:AddParagraph("","[+] Made V1 Bigger")
